@@ -1,0 +1,39 @@
+.PokemonTab {
+  margin-top: 5px;
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.PokemonBall {
+  border: 2px solid black;
+  background-color: white;
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .PokemonTab {
+    width: 75%;
+  }
+
+  .PokemonBall {
+    height: 9vw;
+    width: 9vw;
+  }
+}
+
+.PokemonImage {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.Selected {
+  background-color: lightgreen;
+}

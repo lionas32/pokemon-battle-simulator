@@ -1,0 +1,23 @@
+.PokemonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.ProgressBar {
+  height: 10px;
+  width: 20vw;
+}
+
+.PokemonImage {
+  width: 300px;
+  height: 300px;
+}
+
+.PokemonImageFlipped {
+  transform: scaleX(-1);
+}

@@ -1,0 +1,69 @@
+h1 {
+  font-size: 4vmax;
+}
+
+button {
+  outline: 0;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background-image: url("./images/battle_background.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.AppHeader {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 2vmin);
+  color: white;
+}
+
+.HeaderColor {
+  color: yellow;
+  text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Main {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.PokemonContainer {
+  width: 50vw;
+}
+
+.ModalContainer {
+  font-size: 1.25vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.StartButton {
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+@media (max-width: 1024px) {
+  .ModalContainer {
+    font-size: 2vmax;
+  }
+}
